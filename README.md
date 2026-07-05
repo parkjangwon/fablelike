@@ -2,8 +2,6 @@
 
 `fableLike` is a portable prompt/skill profile for making different AI agents behave more like a high-agency, Fable-style assistant.
 
-It is based on observed Claude Fable-style system-prompt patterns, but it does not copy leaked prompt text verbatim and does not claim to reproduce the original model's hidden capabilities.
-
 ## Goal
 
 Use `SKILL.md` to steer models toward:
@@ -18,8 +16,6 @@ Use `SKILL.md` to steer models toward:
 - short, principled refusals
 - copyright-aware sourcing
 - non-sycophantic evenhandedness
-
-This improves behavioral similarity only. It cannot transfer the original model's weights, private tools, internal classifiers, or actual reasoning capability.
 
 ## Install
 
@@ -67,7 +63,3 @@ Use the fableLike profile below as the operating style for this conversation.
 
 - `SKILL.md` - the portable behavior profile
 - `README.md` - usage notes
-
-## Notes
-
-This repository intentionally keeps only the portable prompt profile and documentation. Product-specific metadata files are omitted so the repo stays model-agnostic.
