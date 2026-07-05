@@ -21,11 +21,35 @@ Use `SKILL.md` to steer models toward:
 
 This improves behavioral similarity only. It cannot transfer the original model's weights, private tools, internal classifiers, or actual reasoning capability.
 
-## Usage
+## Install
+
+Install with the Skills CLI:
+
+```bash
+npx skills add parkjangwon/fablelike
+```
+
+Install globally:
+
+```bash
+npx skills add parkjangwon/fablelike --global
+```
+
+Install to all supported agents without prompts:
+
+```bash
+npx skills add parkjangwon/fablelike --all
+```
+
+Preview/use the skill without installing:
+
+```bash
+npx skills use parkjangwon/fablelike@fablelike
+```
+
+## Manual Usage
 
 Copy the contents of `SKILL.md` into the strongest instruction layer your agent supports.
-
-For Codex or other skill-compatible agents, install or reference this folder as a skill.
 
 For Claude, place the contents in `CLAUDE.md`, project instructions, or a custom command/prompt wrapper.
 
